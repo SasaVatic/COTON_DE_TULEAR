@@ -1,0 +1,217 @@
+/* ____________________________Global____________________________ */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+#osnovna, #opis, #nega, #slike{
+    max-width: 1500px;
+    margin: 0 auto;
+    border-width: 3px;
+    border-style: solid;
+    border-image-slice: 1;
+}
+
+#osnovna h1, #opis h1, #nega h1, #slike h1 {
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+
+
+
+/* ____________________________Navigacija____________________________ */
+
+
+
+nav {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+}
+
+ul {
+    list-style: none;
+    width: 100%;
+    height: 100%;
+}
+
+#color-one {
+    background-color: #48BFE3;
+    padding: 0 1.5rem 3.5rem 1.5rem;
+    width: 100%;
+    height: 100%;
+}
+
+#color-two {
+    background-color: #4EA8DE;
+    padding: 0 1.5rem 3.5rem 1.5rem;
+    width: 100%;
+    height: 100%;
+}
+
+#color-three {
+    background-color: #5390D9;
+    padding: 0 1.5rem 3.5rem 1.5rem;
+    width: 100%;
+    height: 100%;
+}
+
+#color-four {
+    background-color: #5E60CE;
+    padding: 0 1.5rem 3.5rem 1.5rem;
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #EF8354;
+}
+
+
+/* ____________________________Osnovna____________________________ */
+
+
+
+#main-title {
+    padding: 0.3rem 1.5rem 3rem 1.5rem;
+    width: 100%;
+    height: 100%;
+    background-color: #6930C3;
+}
+
+#main-title > div {
+    position: relative;
+    top: .4rem;
+    /* color:  #70EE9C; */
+    text-align: end;
+    padding-right: 3rem;
+    font-size: 1.1rem;
+    background: linear-gradient(to top, #48BFE3,  #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    background-color: #7400B8;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;    
+    overflow: scroll;
+    overflow-x: hidden;
+    color: #fff;    
+    scroll-behavior: smooth;
+    margin: 0 auto;
+}
+
+main::-webkit-scrollbar {
+    width: 0;
+}
+
+#osnovna {
+    padding: 1.5rem 1.5rem 1.5rem 0;
+    border-image-source: linear-gradient(to left, #48BFE3,  #7400B8);
+}
+
+#osnovna img {
+    float: left;
+    width: 30%;
+    height: 100%;  
+    border-width: 5px;
+    border-style: solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right, #48BFE3,  #7400B8);
+    margin-right: 1.5rem;
+    max-width: 280px;
+    max-height: 280px;
+}
+
+
+
+/* ____________________________Opis____________________________ */
+
+
+#opis {
+    padding: 1.5rem 0 1.5rem 1.5rem;
+    border-image-source: linear-gradient(to right, #48BFE3,  #7400B8);
+}
+
+tbody {
+    background: linear-gradient(to bottom,  #48BFE3,#6930C3);
+}
+
+th {
+    height: 3rem;
+    font-size: 1.2rem;
+}
+
+tr {
+    height: 2rem;
+}
+
+td {    
+    padding: 0 1rem 0 1rem;
+}
+
+table {
+    margin: 1.5rem auto 0 auto;
+}
+
+
+
+/* ____________________________Nega____________________________ */
+
+
+#nega {
+    padding: 1.5rem 1.5rem 1.5rem 0;
+    border-image-source: linear-gradient(to left, #48BFE3,  #7400B8);
+}
+
+video {
+    width: 60%;
+    border-width: 5px;
+    border-style: solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right, #48BFE3,  #7400B8);
+}
+
+#video {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+
+/* ____________________________Slike____________________________ */
+
+
+#slike {
+    padding: 1.5rem 0 1.5rem 1.5rem;
+    border-image-source: linear-gradient(to right, #48BFE3,  #7400B8);
+}
+
+#gallery img {
+    max-width: 300px;
+    width: 50%;
+    height: 20rem;
+    margin: 1.5rem;
+    border-width: 5px;
+    border-style: solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to left, #48BFE3,  #7400B8);
+}
+
+#gallery {
+    text-align: center;
+}
